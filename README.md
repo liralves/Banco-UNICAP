@@ -1,3 +1,8 @@
+# UNIVERSIDADE CATÓLICA DE PERNAMBUCO
+<p align="center">
+   <img src="http://www1.unicap.br/icam/wp-content/uploads/2019/06/marca_nova.svg" />
+</p>
+
 ## Descrição
 
 Sistema bancário digital em **Java puro** voltado para funcionários da UNICAP. Roda no terminal e aplica os principais conceitos de POO: herança, polimorfismo, encapsulamento, interfaces, classes abstratas, coleções e tratamento de exceções.
@@ -116,48 +121,9 @@ O sistema já inicia com dois funcionários cadastrados para testes:
 
 ---
 
-## Diagrama UML (Resumido)
+## Diagrama UML
 
-```
-          «interface»
-         Autenticavel
-         +autenticar()
-         +alterarSenha()
-               △
-               |
-           Usuario ──────── Funcionario
-           -login                -id
-           -senhaHash            -nome
-                                 -cpf
-                                 -cargo
-
-            «abstract»
-              Conta
-              -numero
-              -saldo
-              -titular: Funcionario
-              -extrato: List<Transacao>
-              +depositar()
-              +sacar()
-              +transferir()
-              +encerrar()
-              +getTipoConta() «abstract»
-              +aplicarRendimento() «abstract»
-               /    |    \
-              /     |     \
-   ContaCorrente ContaPoupanca ContaSalario
-   -limiteEspecial -diaAniversario -saquesMesAtual
-   +getLimiteEspecial() +aplicarRendimento() +sacar() «override»
-
-              Banco (Serviço)
-              -funcionariosPorCpf: HashMap
-              -contasPorNumero: HashMap
-              +cadastrarFuncionario()
-              +autenticar()
-              +abrirContaCorrente()
-              +abrirContaPoupanca()
-              +abrirContaSalario()
-```
+![Diagrama UML](img/uml_banco_unicap.png)
 
 ---
 
@@ -181,4 +147,4 @@ O sistema já inicia com dois funcionários cadastrados para testes:
 ## Autores
 
 
-Desenvolvido por **[Seu Nome]** — Turma de POO — UNICAP 2025/2026
+Desenvolvido por **[LUANA LIRA]** & **[ALLAN HENRIQUE]**
