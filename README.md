@@ -3,7 +3,20 @@
    <img src="http://www1.unicap.br/icam/wp-content/uploads/2019/06/marca_nova.svg" />
 </p>
 
-## Descrição
+## Índice
+
+- [Sobre o Projeto](#sobre-o-projeto)
+- [Estrutura de Pacotes](#estrutura-de-pacotes)
+- [Funcionalidades](#funcionalidades)
+- [Conceitos de POO Aplicados](#conceitos-de-poo-aplicados)
+- [Como Compilar e Executar](#como-compilar-e-executar)
+- [Diagrama UML](#diagrama-uml)
+- [Tipos de Contas](#tipos-de-conta)
+- [Licença](#licença)
+
+---
+
+## Sobre o Projeto
 
 Sistema bancário digital em **Java puro** voltado para funcionários da UNICAP. Roda no terminal e aplica os principais conceitos de POO: herança, polimorfismo, encapsulamento, interfaces, classes abstratas, coleções e tratamento de exceções.
 
@@ -39,7 +52,7 @@ src/
 
 ## Funcionalidades
 
-| # | Funcionalidade |
+| # | Funcionalidades |
 |---|---|
 | 1 | Cadastrar funcionários |
 | 2 | Criar contas bancárias (Corrente, Poupança, Salário) |
@@ -71,7 +84,7 @@ src/
 
 ---
 
-## Como Executar
+## Como Compilar e Executar
 
 ### Pré-requisitos
 - Java 17 ou superior (recomendado: Java 21)
@@ -142,9 +155,14 @@ O sistema já inicia com dois funcionários cadastrados para testes:
 - Saques adicionais: taxa de R$ 3,50 por operação
 - Sem rendimento
 
----
-
 ## Autores
 
+Desenvolvido por **LUANA LIRA** & **ALLAN HENRIQUE**
 
-Desenvolvido por **[LUANA LIRA]** & **[ALLAN HENRIQUE]**
+---
+
+## Licença
+
+Distribuído sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+---
